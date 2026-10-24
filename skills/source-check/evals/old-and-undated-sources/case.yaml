@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: old-and-undated-sources
+expected_outcome: |
+  Note 1 fails: outside the 12 month window. Note 2: official page, open the link and check the claim and any updated date before keeping it; if no date can be found, mark it as needing a date. Note 3 fails market and language (Spain, Spanish) for a US English checklist. No note is passed without its link being opened.

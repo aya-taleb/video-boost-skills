@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: home-workouts-tiktok-reels
+expected_outcome: |
+  A checklist for home workouts on TikTok and Reels, US English. Each rule has a reason, a way to check it, a weight and a source with link and date in the last 12 months. Sources went through source-check. Rules with no good recent source are listed as gaps, not guessed.

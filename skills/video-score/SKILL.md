@@ -9,7 +9,10 @@ Measures a video, looks at it, and checks every checklist item. The result is ho
 
 ## Inputs
 
-- The video: a local file, or a URL of a video the user owns or has the right to download (download with `yt-dlp` if installed; do not download other people's videos to repost or reuse).
+- The video: a local file the user owns. Never download from YouTube, TikTok or Instagram, not even the user's own video, because the platforms' terms do not allow download tools. If the user gives a link to their own video, ask for the file instead:
+  - YouTube: YouTube Studio, Content, the video's menu, Download (MP4, 720p or 360p, up to 5 times a day per video). Google Takeout exports all of them.
+  - TikTok and Instagram: the original file from their phone or editor, or the platform's own "download your information" export.
+  If the user has no file, score only what the link's public page shows and mark the rest `cant_tell`.
 - A checklist (`checklist.json` from viral-checklist). If there is none, ask for the topic, platform, market and language, and run viral-checklist first. Do not score against a made-up checklist.
 - Optional: a transcript file, and `results.csv` with the user's past results (see Estimate).
 

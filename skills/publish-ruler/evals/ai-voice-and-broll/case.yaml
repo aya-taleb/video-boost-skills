@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: ai-voice-and-broll
+expected_outcome: |
+  A step by step checklist in the order of the YouTube Studio upload flow, built from YouTube's live help pages with links. Flags the altered or synthetic content disclosure as a step to do because of the AI voice and realistic AI b-roll. Marks each step done, to do or blocked.

@@ -1,0 +1,14 @@
+{
+  "name": "video-boost-skills",
+  "owner": {
+    "name": "Aya Taleb",
+    "url": "https://github.com/aya-taleb"
+  },
+  "plugins": [
+    {
+      "name": "video-boost-skills",
+      "source": "./",
+      "description": "Find what makes short and long videos work right now for your topic, turn it into a dated checklist with sources, and score your own video against it before you post."
+    }
+  ]
+}

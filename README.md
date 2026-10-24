@@ -1,10 +1,10 @@
 # video-boost-skills
 
-Agent skills that find out what makes videos work right now, turn it into a checklist, and test your video against it.
+Find out what makes videos work right now for your topic, turn it into a checklist, and test your own video against it before you post.
 
 Every rule comes from a source with a link and a date from the last 12 months. Defaults: US and English.
 
-## Pick your goal
+## What do you want to do?
 
 | I want to... | Ask | Skill |
 |---|---|---|
@@ -17,26 +17,18 @@ Every rule comes from a source with a link and a date from the last 12 months. D
 | Only research one platform | "What works on Reels for cooking videos?" | `tiktok-research`, `reels-research`, `shorts-research`, `youtube-research` |
 | Check if sources are recent and right | "Check these sources" | `source-check` |
 
-## The skills
+## Install
 
-| Skill | What it does |
-|---|---|
-| `trend-ideas` | Researches what is breaking out around a topic right now and ranks 10 video ideas by viral potential, with the evidence. |
-| `viral-checklist` | Builds the checklist for one topic, platform, market and language. Runs the research skills and source-check. |
-| `tiktok-research` | What works on TikTok for the topic now: top videos, patterns, mistakes, TikTok's own rules. |
-| `reels-research` | The same for Instagram Reels. |
-| `shorts-research` | The same for YouTube Shorts. Uses the free YouTube Data API if you add a key. |
-| `youtube-research` | The same for long YouTube videos (over 3 minutes). |
-| `source-check` | Checks every source: working link, date inside the window, right market and language, numbers that match the page. |
-| `video-score` | Measures your video, checks every rule, and gives a readiness score, risks, top fixes and an estimate. |
-| `similar-videos` | Finds the top similar videos and compares them with yours, fact by fact. |
-| `video-packaging` | Writes 3 titles to test, the description with chapters, hashtags, thumbnail ideas, and the changes worth making. |
-| `publish-ruler` | The ruler: YouTube's own upload steps and rules as a step-by-step pre-publish checklist, filled in for your video. |
+/plugin marketplace add aya-taleb/video-boost-skills
+/plugin install video-boost-skills@video-boost-skills
 
-## How to use
+In the Claude app: Customize, Plugins, Add, Add marketplace, Add from a repository, then pick `aya-taleb/video-boost-skills`.
 
-1. Copy the `skills` folder into your agent's skills folder (for Claude Code: `~/.claude/skills/` or `.claude/skills/` in your project).
-2. Ask for a goal from the table above. Add a market or language if not US and English.
+## Start here
+
+Run `/trend-ideas` with your topic, for example "top 10 video ideas for habits and self-improvement".
+Pick an idea, make the video, then run `/viral-checklist` for that topic and platform and `/video-score` on your file.
+Finish with `/video-packaging` and `/publish-ruler` before you upload.
 
 ## What the score means
 
@@ -47,8 +39,16 @@ Every rule comes from a source with a link and a date from the last 12 months. D
 ## Needs
 
 - Python 3.9 or newer and ffmpeg
-- Optional: `pip install faster-whisper` for transcripts, `yt-dlp` to download your own videos from a link
-- Optional: `YOUTUBE_API_KEY` for exact YouTube numbers
+- Optional: `pip install faster-whisper` for transcripts
+- Optional: `YOUTUBE_API_KEY` (free, from a Google Cloud project with YouTube Data API v3 turned on) for exact YouTube numbers
+
+## Good to know
+
+- **Recent sources only.** Nothing older than the window (12 months, or 6 when you ask for recent). If there is no good recent source, the rule is left out and listed as a gap.
+- **No numbers from memory.** Every number has a link and a date.
+- **Free and official sources only.** No scraping and no logins.
+- **Your own files only.** Nothing here downloads from YouTube, TikTok or Instagram, not even your own videos. Get your file from YouTube Studio (Content, the video's menu, Download), or use the original from your phone or editor.
+- **A score is not a promise.** Readiness says how well a video follows what works now, not how many views it will get.
 
 ## Works well with
 
@@ -65,17 +65,10 @@ What this pack adds on top: dated research with a source check, the platform rul
 
 See `docs/COMPETITORS.md`: what vidIQ, TubeBuddy, 1of10, ViewStats, OutlierKit, OpusClip and the faceless video makers do well, where they fall short, and what we took.
 
-## Rules every skill follows
-
-- No source older than the window (12 months, or 6 when you ask for recent).
-- No numbers from memory.
-- If there is no good recent source, the rule is left out and listed as a gap.
-- Free and official sources only. No scraping, no logins.
-
 ## Example
 
 `examples/book-summaries-youtube-US-en` has a full run on a 34-second test video: research notes, source report, checklist, score, similar videos, packaging and the pre-publish checklist.
 
-## License
+## Credits
 
-MIT
+Made by Aya Taleb (github.com/aya-taleb). Written from scratch, with ideas learned from OpusClip, ViewStats, 1of10 and OutlierKit. This repo is not made by or affiliated with any of them. See CREDITS.md. MIT.

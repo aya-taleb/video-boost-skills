@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: link-only-no-file
+expected_outcome: |
+  Does not download the video, even though it is the user's own. Asks for the file and explains YouTube Studio, Content, Download. Does not give a readiness score from the link alone, or marks the unseen items as cant_tell. Asks for or runs the checklist if none is given.

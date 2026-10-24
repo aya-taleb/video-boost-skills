@@ -1,0 +1,72 @@
+{
+  "repo": "video-boost-skills",
+  "owner": "aya-taleb",
+  "skills": [
+    {
+      "name": "trend-ideas",
+      "status": "ours",
+      "version": "0.1.0",
+      "source": "written from scratch; outlier score idea thanks to ViewStats and 1of10"
+    },
+    {
+      "name": "viral-checklist",
+      "status": "ours",
+      "version": "0.1.0",
+      "source": "written from scratch"
+    },
+    {
+      "name": "tiktok-research",
+      "status": "ours",
+      "version": "0.1.0",
+      "source": "written from scratch"
+    },
+    {
+      "name": "reels-research",
+      "status": "ours",
+      "version": "0.1.0",
+      "source": "written from scratch"
+    },
+    {
+      "name": "shorts-research",
+      "status": "ours",
+      "version": "0.1.0",
+      "source": "written from scratch"
+    },
+    {
+      "name": "youtube-research",
+      "status": "ours",
+      "version": "0.1.0",
+      "source": "written from scratch"
+    },
+    {
+      "name": "source-check",
+      "status": "ours",
+      "version": "0.1.0",
+      "source": "written from scratch"
+    },
+    {
+      "name": "video-score",
+      "status": "ours",
+      "version": "0.1.0",
+      "source": "written from scratch; stage scores idea thanks to OpusClip"
+    },
+    {
+      "name": "similar-videos",
+      "status": "ours",
+      "version": "0.1.0",
+      "source": "written from scratch; outlier score idea thanks to ViewStats and 1of10"
+    },
+    {
+      "name": "video-packaging",
+      "status": "ours",
+      "version": "0.1.0",
+      "source": "written from scratch; ranking titles against breakout titles, idea thanks to OutlierKit"
+    },
+    {
+      "name": "publish-ruler",
+      "status": "ours",
+      "version": "0.1.0",
+      "source": "written from scratch"
+    }
+  ]
+}

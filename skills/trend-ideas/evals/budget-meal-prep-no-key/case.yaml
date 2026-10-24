@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: budget-meal-prep-no-key
+expected_outcome: |
+  10 ideas ranked by viral potential, each with dated, linked evidence from the last 12 months. Says the YouTube breakout scan was skipped because no YOUTUBE_API_KEY is set and how to get a free one. No view counts, outlier scores or dates without a source.

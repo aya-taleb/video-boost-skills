@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: personal-finance-long
+expected_outcome: |
+  Research on long YouTube videos (over 3 minutes) for personal finance: top recent videos and patterns, titles and thumbnails, hooks and retention, and YouTube's own rules (inauthentic content, AI disclosure). Every finding with a link and date in the last 12 months.

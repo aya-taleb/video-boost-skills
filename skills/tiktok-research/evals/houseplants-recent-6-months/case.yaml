@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: houseplants-recent-6-months
+expected_outcome: |
+  Research for houseplant care on TikTok with a 6 month window. Top videos, patterns, mistakes, and TikTok's own rules or recommendations, each finding with a link and a date inside 6 months. No scraping, no login, no numbers from memory.

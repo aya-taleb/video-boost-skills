@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: travel-tips-mexico-spanish-no-key
+expected_outcome: |
+  Research set to market MX and language Spanish. Says the top Shorts list from the YouTube Data API needs a free key and how to get one, then gives patterns and YouTube's own Shorts rules from dated sources. No invented view counts.
