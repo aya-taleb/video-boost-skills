@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+score-out/
+video-score-out/
+.env

@@ -1,0 +1,316 @@
+{
+  "topic": "book summaries (self-improvement)",
+  "platforms": [
+    "youtube"
+  ],
+  "market": "US",
+  "language": "en",
+  "made_on": "2026-10-23",
+  "valid_until": "2026-11-23",
+  "items": [
+    {
+      "id": "policy-01",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "policy",
+      "level": "must",
+      "rule": "Make every video its own work: its own script, pictures and structure. Never a fill-in template with only the names changed.",
+      "why": "YouTube does not pay for templated or mass-produced content, and it judges the whole channel.",
+      "check": "Compare with the channel's other videos: different script, different pictures, different structure.",
+      "weight": 3,
+      "evidence": [
+        "yt-01"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "policy-02",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "policy",
+      "level": "must",
+      "rule": "No AI character presents as a doctor, lawyer or money expert giving advice.",
+      "why": "YouTube does not pay for AI personas giving health, legal or finance advice.",
+      "check": "Read the script: characters share ideas and sources, never personal advice.",
+      "weight": 3,
+      "evidence": [
+        "yt-02"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "policy-03",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "policy",
+      "level": "must",
+      "rule": "Summarize the book's ideas in your own words, keep quotes short, and credit the book and author on screen.",
+      "why": "A recap that replaces the book, or long excerpts, is high copyright risk.",
+      "check": "Transcript has no long quotes; the book and author are named on screen.",
+      "weight": 3,
+      "evidence": [
+        "yt-15"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "policy-04",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "policy",
+      "level": "nice",
+      "rule": "Turn on YouTube's AI label only when the video looks realistic. Clearly animated videos do not need it.",
+      "why": "Only realistic synthetic content needs the label.",
+      "check": "Animated style: no label needed. Realistic people or places: label on.",
+      "weight": 1,
+      "evidence": [
+        "yt-03"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "engage-01",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "engagement",
+      "level": "avoid",
+      "rule": "Offer anything in return for likes, subscribes or comments.",
+      "why": "Asking is allowed; rewarding engagement is not.",
+      "check": "Transcript and screen: no 'like to win', no prizes for subscribing.",
+      "weight": 3,
+      "evidence": [
+        "yt-07"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "hook-01",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "hook",
+      "level": "should",
+      "rule": "Open on the promise or payoff in the first seconds. No greeting, no slow intro.",
+      "why": "The share still watching at 30 seconds (Intros) is the first thing that drops; YouTube rewards satisfied viewers.",
+      "check": "Frame at 0 s shows the subject; the first sentence states what the viewer gets.",
+      "weight": 2,
+      "evidence": [
+        "yt-08",
+        "yt-06"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "hook-02",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "hook",
+      "level": "should",
+      "rule": "Say or show the book's name in the first 15 seconds.",
+      "why": "Top book summary titles lead with the book; viewers should know at once they are in the right place.",
+      "check": "The book title is on screen or spoken by 15 s.",
+      "weight": 2,
+      "evidence": [
+        "yt-10"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "story-01",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "story",
+      "level": "should",
+      "rule": "Use a clear structure: numbered takeaways with a section card for each.",
+      "why": "Structured videos kept more viewers than talking-head videos in one 2026 channel study.",
+      "check": "Section cards like 'Takeaway 1' appear.",
+      "weight": 2,
+      "evidence": [
+        "yt-09",
+        "yt-10"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "length-01",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "length",
+      "level": "should",
+      "rule": "For a full book summary, plan 30 to 50 minutes in one video.",
+      "why": "The top book summary channel runs about 49 minutes; long videos also build the 8,000 watch hours needed from 2027.",
+      "check": "duration_s of the full video is 1,800 or more.",
+      "measure": {
+        "metric": "duration_s",
+        "min": 1800
+      },
+      "weight": 2,
+      "evidence": [
+        "yt-10",
+        "yt-16"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "length-02",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "length",
+      "level": "nice",
+      "rule": "Keep one book in one video. Do not split it into parts.",
+      "why": "A 'Part 2' drew far fewer views on the top channel.",
+      "check": "No 'Part 1/Part 2' in the title or script.",
+      "weight": 1,
+      "evidence": [
+        "yt-11"
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "engage-02",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "engagement",
+      "level": "should",
+      "rule": "End with a 5 to 20 second end screen that points to the next video, with room for up to 4 elements.",
+      "why": "End screens only run in the last 5 to 20 seconds; suggested videos are where most viewing comes from.",
+      "check": "The last 5 seconds or more are an end card with free space for video links.",
+      "weight": 2,
+      "evidence": [
+        "yt-04",
+        "yt-06"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "engage-03",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "engagement",
+      "level": "should",
+      "rule": "Make it a series: name what comes next and link it.",
+      "why": "Viewers mostly find videos through suggested videos, not the subscription feed.",
+      "check": "The video names the next video or takeaway.",
+      "weight": 2,
+      "evidence": [
+        "yt-06"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "title-01",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "text",
+      "level": "should",
+      "rule": "Title: the exact book title plus a time promise (for example 'Atomic Habits in 30 Minutes').",
+      "why": "This is the title pattern of the top book summary channel.",
+      "check": "Check the title.",
+      "weight": 2,
+      "evidence": [
+        "yt-10"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "thumb-01",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "visuals",
+      "level": "should",
+      "rule": "Thumbnail: a face (a character face counts as a face here) and about 5 words or fewer.",
+      "why": "Most breakout thumbnails in a 500-video 2026 study had a face; the median text was 5 words.",
+      "check": "Check the thumbnail.",
+      "weight": 2,
+      "evidence": [
+        "yt-14"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "thumb-02",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "visuals",
+      "level": "should",
+      "rule": "Test up to 3 titles and thumbnails with YouTube's A/B test.",
+      "why": "YouTube picks the winner by watch time.",
+      "check": "Test set up in YouTube Studio.",
+      "weight": 2,
+      "evidence": [
+        "yt-05"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "format-01",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "story",
+      "level": "avoid",
+      "rule": "Use the same format and visuals video after video until it feels repetitive.",
+      "why": "A big psychology channel's views fell with repetitive listicles; templated channels are not paid.",
+      "check": "Compare with the channel's last videos.",
+      "weight": 3,
+      "evidence": [
+        "yt-13",
+        "yt-01"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "posting-01",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "posting",
+      "level": "nice",
+      "rule": "Choose quality over volume.",
+      "why": "The top book summary channel grew to 307K subscribers with 20 videos.",
+      "check": "Upload plan.",
+      "weight": 1,
+      "evidence": [
+        "yt-10"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "text-01",
+      "platforms": [
+        "youtube"
+      ],
+      "stage": "text",
+      "level": "nice",
+      "rule": "Add chapters for videos over 5 minutes (first at 0:00, at least 3).",
+      "why": "Chapters need 0:00 and 3 timestamps to show.",
+      "check": "Check the description.",
+      "weight": 1,
+      "evidence": [
+        "yt-17"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "No dated 2026 source on how often the picture should change in explainer videos (pacing). Not scored.",
+    "No US-only data: most studies are global.",
+    "No 2026 source on narration voice or music choice for book summaries.",
+    "No YouTube Data API key yet, so no list of the top book summary videos of the last 12 months with exact counts.",
+    "TikTok, Reels and Shorts were not researched in this run (the test video is 16:9 long-form)."
+  ]
+}

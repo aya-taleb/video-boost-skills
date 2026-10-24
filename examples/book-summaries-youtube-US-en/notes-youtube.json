@@ -1,0 +1,301 @@
+{
+  "platform": "youtube",
+  "topic": "book summaries (self-improvement)",
+  "market": "US",
+  "language": "en",
+  "window_months": 12,
+  "researched_on": "2026-10-23",
+  "findings": [
+    {
+      "id": "yt-01",
+      "kind": "official_rule",
+      "claim": "YouTube does not pay for generic, templated or mass-produced content, including AI videos made from unoriginal templates. It judges the channel, not one video.",
+      "sources": [
+        {
+          "url": "https://www.tubefilter.com/2026/07/13/youtube-inauthentic-content-monetization-policy-update/",
+          "publisher": "Tubefilter",
+          "type": "analysis",
+          "published": "2026-07-13"
+        },
+        {
+          "url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+          "publisher": "TechCrunch",
+          "type": "analysis",
+          "published": "2026-07-20"
+        }
+      ],
+      "scope": "global",
+      "confidence": "high"
+    },
+    {
+      "id": "yt-02",
+      "kind": "official_rule",
+      "claim": "AI personas that present as a human expert giving health, legal, finance or political advice are not monetized.",
+      "sources": [
+        {
+          "url": "https://www.tubefilter.com/2026/07/13/youtube-inauthentic-content-monetization-policy-update/",
+          "publisher": "Tubefilter",
+          "type": "analysis",
+          "published": "2026-07-13"
+        },
+        {
+          "url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+          "publisher": "TechCrunch",
+          "type": "analysis",
+          "published": "2026-07-20"
+        }
+      ],
+      "scope": "global",
+      "confidence": "high"
+    },
+    {
+      "id": "yt-03",
+      "kind": "official_rule",
+      "claim": "The altered or synthetic content label is needed for realistic content only. Clearly unrealistic content does not need it.",
+      "sources": [
+        {
+          "url": "https://support.google.com/youtube/answer/14328491",
+          "publisher": "YouTube Help",
+          "type": "official",
+          "published": null,
+          "accessed": "2026-10-23"
+        }
+      ],
+      "scope": "global",
+      "confidence": "high"
+    },
+    {
+      "id": "yt-04",
+      "kind": "official_rule",
+      "claim": "End screens run in the last 5 to 20 seconds, need a video of 25 seconds or more, allow up to 4 elements, and are off for made for kids videos.",
+      "sources": [
+        {
+          "url": "https://support.google.com/youtube/answer/6388789",
+          "publisher": "YouTube Help",
+          "type": "official",
+          "published": null,
+          "accessed": "2026-10-23"
+        }
+      ],
+      "scope": "global",
+      "confidence": "high"
+    },
+    {
+      "id": "yt-05",
+      "kind": "official_tip",
+      "claim": "YouTube can A/B test up to 3 titles and thumbnails; the winner is picked by watch time share, not clicks.",
+      "sources": [
+        {
+          "url": "https://support.google.com/youtube/answer/16391400",
+          "publisher": "YouTube Help",
+          "type": "official",
+          "published": null,
+          "accessed": "2026-10-23"
+        }
+      ],
+      "scope": "global",
+      "confidence": "high"
+    },
+    {
+      "id": "yt-06",
+      "kind": "official_tip",
+      "claim": "No single metric decides recommendations; suggested videos are the top place people watch channels they subscribe to; subscribers click 10% or less of uploads in their feed (Todd Beaupr\u00e9, YouTube).",
+      "sources": [
+        {
+          "url": "https://ppc.land/subscribers-skip-90-of-uploads-in-their-feed-youtube-director-says/",
+          "publisher": "PPC Land, on Creator Insider 2026-09-01",
+          "type": "official",
+          "published": "2026-09-02"
+        }
+      ],
+      "scope": "global",
+      "confidence": "high"
+    },
+    {
+      "id": "yt-07",
+      "kind": "official_rule",
+      "claim": "Asking viewers to subscribe, like, share or comment is allowed; content that exists only to reward engagement is not.",
+      "sources": [
+        {
+          "url": "https://support.google.com/youtube/answer/3399767",
+          "publisher": "YouTube Help",
+          "type": "official",
+          "published": null,
+          "accessed": "2026-10-23"
+        }
+      ],
+      "scope": "global",
+      "confidence": "high"
+    },
+    {
+      "id": "yt-08",
+      "kind": "data_study",
+      "claim": "The Intros metric shows the share still watching after 30 seconds; vidIQ's best videos keep 60 to 68% at 30 seconds.",
+      "detail": "Six vidIQ videos, trailing 12 months to June 2026. One company's own channel, small sample.",
+      "sources": [
+        {
+          "url": "https://vidiq.com/blog/post/increase-audience-retention-youtube/",
+          "publisher": "vidIQ",
+          "type": "data",
+          "published": "2026-06-29"
+        }
+      ],
+      "scope": "global",
+      "confidence": "medium"
+    },
+    {
+      "id": "yt-09",
+      "kind": "data_study",
+      "claim": "Structured, format-driven videos kept 30 to 37% of viewers vs 20 to 25% for talking-head videos of the same length (8 to 15 min).",
+      "detail": "One agency's own channel, last 28 days, number of videos not stated.",
+      "sources": [
+        {
+          "url": "https://humbleandbrag.com/blog/youtube-audience-retention-benchmarks",
+          "publisher": "Humble&Brag",
+          "type": "data",
+          "published": "2026-03-16"
+        }
+      ],
+      "scope": "global",
+      "confidence": "low"
+    },
+    {
+      "id": "yt-10",
+      "kind": "winner_pattern",
+      "claim": "Antidote (top animated book summaries): 307K subscribers from 20 videos, about 49 minutes each, median 531K views. Titles lead with the exact book title and a time promise, e.g. 'Atomic Habits in 30 Minutes'.",
+      "sources": [
+        {
+          "url": "https://outlierkit.com/channel/antidote-thechannel",
+          "publisher": "OutlierKit (live channel data, estimates)",
+          "type": "data",
+          "published": null,
+          "accessed": "2026-10-23"
+        }
+      ],
+      "scope": "global",
+      "confidence": "medium"
+    },
+    {
+      "id": "yt-11",
+      "kind": "mistake",
+      "claim": "On Antidote, a 'Part 2' of a book drew far fewer views than the main video.",
+      "sources": [
+        {
+          "url": "https://outlierkit.com/channel/antidote-thechannel",
+          "publisher": "OutlierKit",
+          "type": "analysis",
+          "published": null,
+          "accessed": "2026-10-23"
+        }
+      ],
+      "scope": "global",
+      "confidence": "low"
+    },
+    {
+      "id": "yt-12",
+      "kind": "winner_pattern",
+      "claim": "PsychToons: 'Psychology of [trait]' titles that promise a transformation; growth is hit-driven (median about 4,800 views, hits up to 3.2M).",
+      "sources": [
+        {
+          "url": "https://outlierkit.com/channel/psychtoonshq",
+          "publisher": "OutlierKit (live channel data, estimates)",
+          "type": "data",
+          "published": null,
+          "accessed": "2026-10-23"
+        }
+      ],
+      "scope": "global",
+      "confidence": "medium"
+    },
+    {
+      "id": "yt-13",
+      "kind": "mistake",
+      "claim": "Psych2Go: 13.2M subscribers but a recent median of 56K views, put down to fatigue from repetitive listicle formats.",
+      "sources": [
+        {
+          "url": "https://outlierkit.com/channel/psych2go",
+          "publisher": "OutlierKit",
+          "type": "analysis",
+          "published": null,
+          "accessed": "2026-10-23"
+        }
+      ],
+      "scope": "global",
+      "confidence": "low"
+    },
+    {
+      "id": "yt-14",
+      "kind": "data_study",
+      "claim": "In 500 breakout long-form thumbnails (June 2026), 69% showed a face (80% of the top 50), 72% had text with a median of 5 words, and only about 5% used an exaggerated face.",
+      "detail": "Shows what breakouts used, not what caused them.",
+      "sources": [
+        {
+          "url": "https://vidiq.com/research/youtube-thumbnail-study/",
+          "publisher": "vidIQ Research",
+          "type": "data",
+          "published": "2026-07-08"
+        }
+      ],
+      "scope": "global",
+      "confidence": "medium"
+    },
+    {
+      "id": "yt-15",
+      "kind": "mistake",
+      "claim": "A recap that replaces the original work, or long copyrighted excerpts, is high copyright risk; Content ID can claim videos that may still be fair use.",
+      "sources": [
+        {
+          "url": "https://usethirdchair.com/blog/youtube-fair-use-what-actually-counts-in",
+          "publisher": "Third Chair",
+          "type": "analysis",
+          "published": "2026-04-09"
+        }
+      ],
+      "scope": "US",
+      "confidence": "medium"
+    },
+    {
+      "id": "yt-16",
+      "kind": "official_rule",
+      "claim": "From Feb 1, 2027, new channels need 1,000 subscribers and 8,000 watch hours in 365 days (or 20M Shorts views in 90 days) for ad revenue.",
+      "sources": [
+        {
+          "url": "https://vidiq.com/blog/post/youtube-partner-program-changes-2027/",
+          "publisher": "vidIQ, on YouTube's 2026-08-10 announcement",
+          "type": "analysis",
+          "published": "2026-08-10"
+        },
+        {
+          "url": "https://www.shacknews.com/article/150324/youtube-partner-program-minimum-qualified-public-watch-hours-shorts-views",
+          "publisher": "Shacknews",
+          "type": "analysis",
+          "published": "2026-08-10"
+        }
+      ],
+      "scope": "global",
+      "confidence": "high"
+    },
+    {
+      "id": "yt-17",
+      "kind": "official_tip",
+      "claim": "Chapters need the first timestamp at 0:00 and at least 3 timestamps; suggested for videos over 5 minutes.",
+      "sources": [
+        {
+          "url": "https://tubemilestone.com/blog/youtube-chapter-markers",
+          "publisher": "TubeMilestone",
+          "type": "analysis",
+          "published": "2026-07"
+        }
+      ],
+      "scope": "global",
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "No dated 2026 source on how often the picture should change in explainer videos (pacing). Not scored.",
+    "No US-only data: most studies are global.",
+    "No 2026 source on narration voice or music choice for book summaries.",
+    "No YouTube Data API key yet, so no list of the top book summary videos of the last 12 months with exact counts.",
+    "TikTok, Reels and Shorts were not researched in this run (the test video is 16:9 long-form)."
+  ]
+}
