@@ -50,6 +50,17 @@ Every rule comes from a source with a link and a date from the last 12 months. D
 - Optional: `pip install faster-whisper` for transcripts, `yt-dlp` to download your own videos from a link
 - Optional: `YOUTUBE_API_KEY` for exact YouTube numbers
 
+## Works well with
+
+These free MIT packs by Jake Schincariol do things we don't, and our checklists fit right in:
+
+| Pack | Use it for |
+|---|---|
+| [chatgpt-youtube-agent-skill](https://github.com/Jakeschincariol/chatgpt-youtube-agent-skill) | scoring your hook before you record (`yt-script`), reading your retention export to find the second people left (`yt-retention`), finding Shorts inside a long video (`yt-shorts`) |
+| [instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | Reels hooks, captions, and the humanizer that cleans AI-sounding text |
+
+What this pack adds on top: dated research with a source check, the platform rules as a pre-publish ruler, measuring the actual video file, and ranked ideas from a live YouTube breakout scan.
+
 ## Learned from other tools
 
 See `docs/COMPETITORS.md`: what vidIQ, TubeBuddy, 1of10, ViewStats, OutlierKit, OpusClip and the faceless video makers do well, where they fall short, and what we took.

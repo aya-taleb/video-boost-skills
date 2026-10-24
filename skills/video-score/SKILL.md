@@ -54,6 +54,10 @@ Measures a video, looks at it, and checks every checklist item. The result is ho
    ```
    It returns the chance (in percent) that the video beats the channel's median views. Without 20 logged results it is **uncalibrated**: it starts at 50% and the readiness moves it at most 20 points. Always print the basis and confidence next to the number. After the video has been out for 7 days, add a row to `results.csv` (`video,readiness,beat_median`) so future estimates learn from real results.
 
+## Optional: hook score
+
+If Jake Schincariol's [chatgpt-youtube-agent-skill](https://github.com/Jakeschincariol/chatgpt-youtube-agent-skill) is installed, also run its `yt-script/hookscore.py --hook "<first 15 seconds of the transcript>"` and add the result as a note. It is a heuristic; its author says a low score is a reason to look again, never a high score a promise.
+
 ## After the score
 
 - Run `similar-videos` to see how the video stands against the top similar ones (not only against the checklist).
