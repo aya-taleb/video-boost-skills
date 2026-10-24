@@ -8,6 +8,7 @@ Every rule comes from a source with a link and a date from the last 12 months. D
 
 | I want to... | Ask | Skill |
 |---|---|---|
+| Find the next videos to make | "Give me the top 10 video ideas for habits and self-improvement" | `trend-ideas` |
 | Know what works now for my topic | "Make a viral checklist for travel tips on TikTok and Reels" | `viral-checklist` |
 | Test my video before posting | "Score this video against the checklist" | `video-score` |
 | See how I stand against similar videos | "Compare my video with the top similar ones" | `similar-videos` |
@@ -20,6 +21,7 @@ Every rule comes from a source with a link and a date from the last 12 months. D
 
 | Skill | What it does |
 |---|---|
+| `trend-ideas` | Researches what is breaking out around a topic right now and ranks 10 video ideas by viral potential, with the evidence. |
 | `viral-checklist` | Builds the checklist for one topic, platform, market and language. Runs the research skills and source-check. |
 | `tiktok-research` | What works on TikTok for the topic now: top videos, patterns, mistakes, TikTok's own rules. |
 | `reels-research` | The same for Instagram Reels. |
@@ -47,6 +49,10 @@ Every rule comes from a source with a link and a date from the last 12 months. D
 - Python 3.9 or newer and ffmpeg
 - Optional: `pip install faster-whisper` for transcripts, `yt-dlp` to download your own videos from a link
 - Optional: `YOUTUBE_API_KEY` for exact YouTube numbers
+
+## Learned from other tools
+
+See `docs/COMPETITORS.md`: what vidIQ, TubeBuddy, 1of10, ViewStats, OutlierKit, OpusClip and the faceless video makers do well, where they fall short, and what we took.
 
 ## Rules every skill follows
 
