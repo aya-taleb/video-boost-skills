@@ -20,12 +20,12 @@ A score against a checklist says how well you follow the rules. This skill says 
 ## Steps
 
 1. **Find candidates.**
-   - YouTube with `YOUTUBE_API_KEY`: `python3 ../shorts-research/scripts/top_shorts.py --topic "<topic>" --region US --lang en --months 12 [--long]`. Run it once more with `--months 120` to find older leaders.
+   - YouTube with `YOUTUBE_API_KEY`: `python3 ../trend-ideas/scripts/trend_scan.py --angles "<topic>" "<topic> summary" --region US --lang en --days 365 --long --out similar.json`. It adds the **outlier** score (views vs the channel's median of its last 10 uploads), so you can tell a video that won on its own from one that rode a big channel. For older leaders run `../shorts-research/scripts/top_shorts.py --topic "<topic>" --long --months 120`.
    - Otherwise: search the web for the topic plus the format and the year, and open the video pages.
    - TikTok and Reels: public pages only, no logins, no scraping tools.
 2. **Pick 5 to 10.** Same topic, or the same format on a close topic. Prefer videos from the last 12 months. Up to 3 older leaders, marked `older`. Drop videos in another language or made for another market (say why).
 3. **Collect public facts for each,** from the video page or a dated stats page:
-   title · channel · post date · length · views (with the source and the date you read it; leave empty if no page shows it) · chapters (count) · first 2 lines of the description · links in the description · hashtags · title pattern · thumbnail (describe it only if you can see it).
+   title · channel · post date · length · views (with the source and the date you read it; leave empty if no page shows it) · outlier (if scanned) · channel subscribers · chapters (count) · first 2 lines of the description · links in the description · hashtags · title pattern · thumbnail (describe it only if you can see it).
    Never guess a view count. Channel stats sites give estimates; say so.
 4. **Do not download other people's videos.** Platform terms do not allow it. If the user wants pacing or hook details, ask them to watch the first 30 seconds and tell you, or to share screenshots.
 5. **Compare.** One table: your video vs each similar video, one row per fact. Then:

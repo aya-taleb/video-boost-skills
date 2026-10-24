@@ -44,9 +44,11 @@ Measures a video, looks at it, and checks every checklist item. The result is ho
 4. **Readiness score.**
    `readiness = 100 × sum(weight × points) / sum(weight)`, with pass = 1, partial = 0.5, fail = 0, and `cant_tell` items left out of both sums. Report how many items were `cant_tell`, because many unknowns make the score less reliable.
 
-5. **Risks.** List every failed `must` item and every failed `avoid` item as a risk, most serious first. Policy risks (monetization, copyright, AI labels, made for kids) always go on top.
+5. **Stage scores.** Also give the readiness of each stage on its own (same math, only that stage's items): Hook, Story (story, length, pacing), Look and sound (visuals, text, audio), Packaging (title, thumbnail, description), Engagement, Policy. A stage with no scored items shows "can't tell". This shows where the video is weak at a glance (OpusClip shows a similar split: Hook, Flow, Value, Trend).
 
-6. **Estimate.**
+6. **Risks.** List every failed `must` item and every failed `avoid` item as a risk, most serious first. Policy risks (monetization, copyright, AI labels, made for kids) always go on top.
+
+7. **Estimate.**
    ```bash
    python3 <skill_path>/scripts/estimate.py --readiness 74 [--results results.csv]
    ```
@@ -64,6 +66,7 @@ Video score: POC4-atomic-habits-takeaway-1.mp4 (34.5 s, 16:9)
 Checklist: book summaries · YouTube long-form · US · en · made 2026-10-23
 
 Readiness: 74 / 100   (20 items scored, 4 can't tell)
+Stages: Hook 100 · Story 70 · Look and sound 80 · Packaging can't tell · Engagement 50 · Policy 100
 Chance to beat your median views: 59%  (uncalibrated, low confidence)
 
 Risks

@@ -1,0 +1,468 @@
+{
+  "scanned_on": "2026-10-24",
+  "region": "US",
+  "language": "en",
+  "window_days": 365,
+  "format": "long",
+  "quota_used": 235,
+  "angles": [
+    {
+      "angle": "atomic habits summary",
+      "videos": 12,
+      "median_views_per_day_top10": 3202,
+      "breakouts_3x": 8,
+      "breakouts_from_small_channels": 3,
+      "rising": 0.04,
+      "top": [
+        {
+          "title": "The Man Who Wrote Atomic Habits: Your Goals Are Quietly Restricting Your Happiness | James Clear",
+          "channel": "The Diary Of A CEO",
+          "url": "https://www.youtube.com/watch?v=rtufWBLOXgw",
+          "posted": "2025-12-11",
+          "views": 4333062,
+          "views_per_day": 13677,
+          "outlier": 17.7,
+          "channel_subs": 20800000,
+          "seconds": 7879
+        },
+        {
+          "title": "The Science of Making & Breaking Habits: How to Change Your Life in 1 Month",
+          "channel": "Mel Robbins",
+          "url": "https://www.youtube.com/watch?v=8dHEG7WxR4c",
+          "posted": "2026-01-08",
+          "views": 2959998,
+          "views_per_day": 10252,
+          "outlier": 79.3,
+          "channel_subs": 6350000,
+          "seconds": 5179
+        },
+        {
+          "title": "Everything Done Before 11 AM !! Time Management Story book summary",
+          "channel": "SeeKen",
+          "url": "https://www.youtube.com/watch?v=B1KJXLW7pKE",
+          "posted": "2026-02-01",
+          "views": 2187884,
+          "views_per_day": 8260,
+          "outlier": 8.7,
+          "channel_subs": 4570000,
+          "seconds": 1148
+        },
+        {
+          "title": "Atomic Habits in 30 Minutes | Animated Book Summary",
+          "channel": "Antidote",
+          "url": "https://www.youtube.com/watch?v=PmvhH6R-H44",
+          "posted": "2026-01-30",
+          "views": 2168438,
+          "views_per_day": 8134,
+          "outlier": 4.8,
+          "channel_subs": 318000,
+          "seconds": 1816
+        },
+        {
+          "title": "Atomic Habits by James Clear Full Audiobook",
+          "channel": "JunkLoader",
+          "url": "https://www.youtube.com/watch?v=UYxb-v__EIw",
+          "posted": "2026-06-08",
+          "views": 542490,
+          "views_per_day": 3951,
+          "outlier": 108.2,
+          "channel_subs": 2670,
+          "seconds": 20109
+        }
+      ]
+    },
+    {
+      "angle": "atomic habits animated",
+      "videos": 8,
+      "median_views_per_day_top10": 433,
+      "breakouts_3x": 5,
+      "breakouts_from_small_channels": 3,
+      "rising": 184.44,
+      "top": [
+        {
+          "title": "Team Godzilla & Kong vs Legendary King Ghidorah's Atomic Breath: Giant Monster Battle",
+          "channel": "Toni Eldora",
+          "url": "https://www.youtube.com/watch?v=5yfFDJHMbdc",
+          "posted": "2026-10-03",
+          "views": 3288002,
+          "views_per_day": 158969,
+          "outlier": 4.3,
+          "channel_subs": 3610000,
+          "seconds": 1994
+        },
+        {
+          "title": "Atomic Habits in 30 Minutes | Animated Book Summary",
+          "channel": "Antidote",
+          "url": "https://www.youtube.com/watch?v=PmvhH6R-H44",
+          "posted": "2026-01-30",
+          "views": 2168438,
+          "views_per_day": 8134,
+          "outlier": 4.8,
+          "channel_subs": 318000,
+          "seconds": 1816
+        },
+        {
+          "title": "The 7 Habits That Will Change Your Life | Animated Book Summary",
+          "channel": "Antidote",
+          "url": "https://www.youtube.com/watch?v=dw8XTxfNkNA",
+          "posted": "2026-05-11",
+          "views": 395593,
+          "views_per_day": 2388,
+          "outlier": 0.9,
+          "channel_subs": 318000,
+          "seconds": 1715
+        },
+        {
+          "title": "Atomic Habits in 13 Min",
+          "channel": "LITTLE BIT BETTER",
+          "url": "https://www.youtube.com/watch?v=1h4D7munW2Y",
+          "posted": "2025-12-25",
+          "views": 256266,
+          "views_per_day": 847,
+          "outlier": 0.8,
+          "channel_subs": 1400000,
+          "seconds": 780
+        },
+        {
+          "title": "Atomic Habits in 42 Minutes | Animated Book Summary",
+          "channel": "Beyond the Page",
+          "url": "https://www.youtube.com/watch?v=ESLFtp_WcD4",
+          "posted": "2026-09-11",
+          "views": 809,
+          "views_per_day": 19,
+          "outlier": 12.2,
+          "channel_subs": 26,
+          "seconds": 2541
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": "rtufWBLOXgw",
+      "url": "https://www.youtube.com/watch?v=rtufWBLOXgw",
+      "title": "The Man Who Wrote Atomic Habits: Your Goals Are Quietly Restricting Your Happiness | James Clear",
+      "channel": "The Diary Of A CEO",
+      "channel_id": "UCGq-a57w-aPwyi3pW7XLiHw",
+      "posted": "2025-12-11",
+      "age_days": 316.8,
+      "seconds": 7879,
+      "views": 4333062,
+      "views_per_day": 13677,
+      "engagement": 0.0174,
+      "angles": [
+        "atomic habits summary"
+      ],
+      "channel_subs": 20800000,
+      "views_per_sub": 0.21,
+      "outlier": 17.7
+    },
+    {
+      "id": "8dHEG7WxR4c",
+      "url": "https://www.youtube.com/watch?v=8dHEG7WxR4c",
+      "title": "The Science of Making & Breaking Habits: How to Change Your Life in 1 Month",
+      "channel": "Mel Robbins",
+      "channel_id": "UCk2U-Oqn7RXf-ydPqfSxG5g",
+      "posted": "2026-01-08",
+      "age_days": 288.7,
+      "seconds": 5179,
+      "views": 2959998,
+      "views_per_day": 10252,
+      "engagement": 0.0234,
+      "angles": [
+        "atomic habits summary"
+      ],
+      "channel_subs": 6350000,
+      "views_per_sub": 0.47,
+      "outlier": 79.3
+    },
+    {
+      "id": "B1KJXLW7pKE",
+      "url": "https://www.youtube.com/watch?v=B1KJXLW7pKE",
+      "title": "Everything Done Before 11 AM !! Time Management Story book summary",
+      "channel": "SeeKen",
+      "channel_id": "UCfhbydY40P2Lli9HuBz8cdA",
+      "posted": "2026-02-01",
+      "age_days": 264.9,
+      "seconds": 1148,
+      "views": 2187884,
+      "views_per_day": 8260,
+      "engagement": 0.0257,
+      "angles": [
+        "atomic habits summary"
+      ],
+      "channel_subs": 4570000,
+      "views_per_sub": 0.48,
+      "outlier": 8.7
+    },
+    {
+      "id": "PmvhH6R-H44",
+      "url": "https://www.youtube.com/watch?v=PmvhH6R-H44",
+      "title": "Atomic Habits in 30 Minutes | Animated Book Summary",
+      "channel": "Antidote",
+      "channel_id": "UCQUnqaW8Q33siyLYhisN7HQ",
+      "posted": "2026-01-30",
+      "age_days": 266.6,
+      "seconds": 1816,
+      "views": 2168438,
+      "views_per_day": 8134,
+      "engagement": 0.0156,
+      "angles": [
+        "atomic habits animated",
+        "atomic habits summary"
+      ],
+      "channel_subs": 318000,
+      "views_per_sub": 6.82,
+      "outlier": 4.8
+    },
+    {
+      "id": "bdsc3Spm6Sw",
+      "url": "https://www.youtube.com/watch?v=bdsc3Spm6Sw",
+      "title": "Best Ways to Build Better Habits & Break Bad Ones | James Clear",
+      "channel": "Andrew Huberman",
+      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
+      "posted": "2026-01-05",
+      "age_days": 291.6,
+      "seconds": 9319,
+      "views": 714981,
+      "views_per_day": 2452,
+      "engagement": 0.0205,
+      "angles": [
+        "atomic habits summary"
+      ],
+      "channel_subs": 7970000,
+      "views_per_sub": 0.09,
+      "outlier": 5.5
+    },
+    {
+      "id": "UYxb-v__EIw",
+      "url": "https://www.youtube.com/watch?v=UYxb-v__EIw",
+      "title": "Atomic Habits by James Clear Full Audiobook",
+      "channel": "JunkLoader",
+      "channel_id": "UCpzhIlYC4893M1VdwZlVxyA",
+      "posted": "2026-06-08",
+      "age_days": 137.3,
+      "seconds": 20109,
+      "views": 542490,
+      "views_per_day": 3951,
+      "engagement": 0.0147,
+      "angles": [
+        "atomic habits summary"
+      ],
+      "channel_subs": 2670,
+      "views_per_sub": 203.18,
+      "outlier": 108.2
+    },
+    {
+      "id": "1h4D7munW2Y",
+      "url": "https://www.youtube.com/watch?v=1h4D7munW2Y",
+      "title": "Atomic Habits in 13 Min",
+      "channel": "LITTLE BIT BETTER",
+      "channel_id": "UCmbF1cyNa6y7uNYiqYmSVJw",
+      "posted": "2025-12-25",
+      "age_days": 302.6,
+      "seconds": 780,
+      "views": 256266,
+      "views_per_day": 847,
+      "engagement": 0.0277,
+      "angles": [
+        "atomic habits animated",
+        "atomic habits summary"
+      ],
+      "channel_subs": 1400000,
+      "views_per_sub": 0.18,
+      "outlier": 0.8
+    },
+    {
+      "id": "dw8XTxfNkNA",
+      "url": "https://www.youtube.com/watch?v=dw8XTxfNkNA",
+      "title": "The 7 Habits That Will Change Your Life | Animated Book Summary",
+      "channel": "Antidote",
+      "channel_id": "UCQUnqaW8Q33siyLYhisN7HQ",
+      "posted": "2026-05-11",
+      "age_days": 165.6,
+      "seconds": 1715,
+      "views": 395593,
+      "views_per_day": 2388,
+      "engagement": 0.0142,
+      "angles": [
+        "atomic habits animated",
+        "atomic habits summary"
+      ],
+      "channel_subs": 318000,
+      "views_per_sub": 1.24,
+      "outlier": 0.9
+    },
+    {
+      "id": "C0Sq--g1M0o",
+      "url": "https://www.youtube.com/watch?v=C0Sq--g1M0o",
+      "title": "Atomic Habits in 5 minutes",
+      "channel": "Coach Safaa",
+      "channel_id": "UCYNlDI0VdoR0XofcTO5IQmQ",
+      "posted": "2026-01-09",
+      "age_days": 287.4,
+      "seconds": 351,
+      "views": 89102,
+      "views_per_day": 310,
+      "engagement": 0.0419,
+      "angles": [
+        "atomic habits summary"
+      ],
+      "channel_subs": 5080,
+      "views_per_sub": 17.54,
+      "outlier": 77.1
+    },
+    {
+      "id": "yoLY7js5VTM",
+      "url": "https://www.youtube.com/watch?v=yoLY7js5VTM",
+      "title": "The Power of Atomic Habits | Atomic Habits ",
+      "channel": "AudioBOOK Library ",
+      "channel_id": "UCX6ccXgVae4wFUi--UtAjLg",
+      "posted": "2026-07-26",
+      "age_days": 89.6,
+      "seconds": 2777,
+      "views": 4968,
+      "views_per_day": 55,
+      "engagement": 0.0016,
+      "angles": [
+        "atomic habits summary"
+      ],
+      "channel_subs": 28400,
+      "views_per_sub": 0.17,
+      "outlier": 2.9
+    },
+    {
+      "id": "IJCvpqaTNOE",
+      "url": "https://www.youtube.com/watch?v=IJCvpqaTNOE",
+      "title": "Atomic Habits Summary: Every Chapter Explained in 26 Minutes",
+      "channel": "Epilogue Books",
+      "channel_id": "UC4WqtrgVmmoNp6nKyBaU19Q",
+      "posted": "2026-10-02",
+      "age_days": 21.6,
+      "seconds": 1570,
+      "views": 3692,
+      "views_per_day": 171,
+      "engagement": 0.0014,
+      "angles": [
+        "atomic habits summary"
+      ],
+      "channel_subs": 1470,
+      "views_per_sub": 2.51,
+      "outlier": 95.9
+    },
+    {
+      "id": "KUbGG4J382o",
+      "url": "https://www.youtube.com/watch?v=KUbGG4J382o",
+      "title": "Atomic Habits in 10 Minutes (Build Discipline That Actually Lasts)",
+      "channel": "Maj Anita Rathore",
+      "channel_id": "UCx85ZP1xEd-1ZkAbRdH_IgQ",
+      "posted": "2026-04-23",
+      "age_days": 183.9,
+      "seconds": 572,
+      "views": 3638,
+      "views_per_day": 20,
+      "engagement": 0.1023,
+      "angles": [
+        "atomic habits summary"
+      ],
+      "channel_subs": 64600,
+      "views_per_sub": 0.06,
+      "outlier": 0.5
+    },
+    {
+      "id": "5yfFDJHMbdc",
+      "url": "https://www.youtube.com/watch?v=5yfFDJHMbdc",
+      "title": "Team Godzilla & Kong vs Legendary King Ghidorah's Atomic Breath: Giant Monster Battle",
+      "channel": "Toni Eldora",
+      "channel_id": "UCyM-4WCds-4njJBhABvKgiA",
+      "posted": "2026-10-03",
+      "age_days": 20.7,
+      "seconds": 1994,
+      "views": 3288002,
+      "views_per_day": 158969,
+      "engagement": 0.0027,
+      "angles": [
+        "atomic habits animated"
+      ],
+      "channel_subs": 3610000,
+      "views_per_sub": 0.91,
+      "outlier": 4.3
+    },
+    {
+      "id": "4ivZRJYWaA8",
+      "url": "https://www.youtube.com/watch?v=4ivZRJYWaA8",
+      "title": "Atomic Habits — How Tiny Changes Build a Powerful Life (Animated Summary) | James Clear",
+      "channel": "BSG Knowledge",
+      "channel_id": "UC-dwACNxAHTzE8iOa1ctBsw",
+      "posted": "2026-06-11",
+      "age_days": 134.7,
+      "seconds": 856,
+      "views": 2007,
+      "views_per_day": 15,
+      "engagement": 0.0095,
+      "angles": [
+        "atomic habits animated"
+      ],
+      "channel_subs": 4460,
+      "views_per_sub": 0.45,
+      "outlier": 133.8
+    },
+    {
+      "id": "Du3ChbyesYs",
+      "url": "https://www.youtube.com/watch?v=Du3ChbyesYs",
+      "title": "Atomic Habits by James Clear – Animated Book Summary in Under 10 Minutes",
+      "channel": "Elham Masumi",
+      "channel_id": "UC-4PdWcOQiSUgkgV7dmW7Jg",
+      "posted": "2026-04-21",
+      "age_days": 185.9,
+      "seconds": 412,
+      "views": 1799,
+      "views_per_day": 10,
+      "engagement": 0.0033,
+      "angles": [
+        "atomic habits animated"
+      ],
+      "channel_subs": 6450,
+      "views_per_sub": 0.28,
+      "outlier": 2.1
+    },
+    {
+      "id": "b1cJKZG92CU",
+      "url": "https://www.youtube.com/watch?v=b1cJKZG92CU",
+      "title": "Atomic Habits in just 3 Minutes | James Clear (Full Summary)",
+      "channel": "MORE BETTER",
+      "channel_id": "UCtomTA26GjLSK64RC5myTUg",
+      "posted": "2026-02-02",
+      "age_days": 263.3,
+      "seconds": 194,
+      "views": 1036,
+      "views_per_day": 4,
+      "engagement": 0.0,
+      "angles": [
+        "atomic habits animated"
+      ],
+      "channel_subs": 9,
+      "views_per_sub": 115.11,
+      "outlier": 39.8
+    },
+    {
+      "id": "ESLFtp_WcD4",
+      "url": "https://www.youtube.com/watch?v=ESLFtp_WcD4",
+      "title": "Atomic Habits in 42 Minutes | Animated Book Summary",
+      "channel": "Beyond the Page",
+      "channel_id": "UCYk0iCvSqkFJKa8qOtxfMKA",
+      "posted": "2026-09-11",
+      "age_days": 42.4,
+      "seconds": 2541,
+      "views": 809,
+      "views_per_day": 19,
+      "engagement": 0.021,
+      "angles": [
+        "atomic habits animated"
+      ],
+      "channel_subs": 26,
+      "views_per_sub": 31.12,
+      "outlier": 12.2
+    }
+  ]
+}

@@ -17,7 +17,8 @@ Writes the title, description and the rest, and lists the changes worth making t
 
 ## What to write
 
-1. **3 titles** for YouTube's A/B test. Each a different angle (for example: the promise, the number, the question). YouTube allows 100 characters; keep the main words in the first 60 or so so they show in search and on phones (check the current display length if the research found one; do not guess a number). No misleading clickbait: YouTube's spam policy bans titles that trick people into clicking. Say which rule or pattern each title follows.
+1. **Titles.** Write 10 to 16 candidates, then rank them against real breakout titles near the topic (from `similar-videos`, or `trend-ideas/scripts/trend_scan.py` with the topic as the angle): does each follow a pattern that breaks out now (outlier 3x or more), is it clear, is it true to the video? Keep the best **3** for YouTube's A/B test. (Ranking titles against breakout videos near the topic is OutlierKit's idea.)
+   For the 3 kept: Each a different angle (for example: the promise, the number, the question). YouTube allows 100 characters; keep the main words in the first 60 or so so they show in search and on phones (check the current display length if the research found one; do not guess a number). No misleading clickbait: YouTube's spam policy bans titles that trick people into clicking. Say which rule or pattern each title follows.
 2. **Description:**
    - First 2 lines: what the viewer gets, with the main words people search for. Write it for people, not for keyword stuffing (excessive tags in the description break YouTube's spam policy).
    - Chapters: first at 00:00, at least 3, ascending, each 10 seconds or longer (YouTube's chapter rules). Only for times that exist in the video.

@@ -1,27 +1,35 @@
-# Similar videos: Atomic Habits, animated summaries (YouTube, US, en)
+# Similar videos: Atomic Habits summaries (YouTube, US, en)
 
-Checked 2026-10-23. Views only where a dated page shows them. No YouTube API key yet, so this is a small set found by web search.
+Scanned 2026-10-23 with the YouTube Data API (`trend_scan.py`, last 365 days, videos over 3 minutes, 235 quota units).
+Outlier = the video's views divided by its channel's median views of its last 10 uploads (3x or more is a breakout).
 
-| | Ours (POC 4 clip) | Antidote | Productivity Game | LearningTab | PsychToons | PsychToons |
+## Book summaries (same format)
+
+| Video | Channel (subscribers) | Posted | Length | Views | Views a day | Outlier |
 |---|---|---|---|---|---|---|
-| Video | Takeaway 1 test clip | [Atomic Habits in 30 Minutes \| Animated Book Summary](https://www.youtube.com/watch?v=PmvhH6R-H44) | [ATOMIC HABITS by James Clear \| Core Message](https://www.youtube.com/watch?v=_u8lxBrIm0c) | ['Atomic Habits' by James Clear \| In-Depth Summary \| Mastering Productivity](https://www.youtube.com/watch?v=eNSEtpjKRac) | [Psychology of Resilience: Build a Mind So Strong It Scares People](https://www.youtube.com/watch?v=TRd1kuUGazE) | [Psychology of Composure: Be So Calm It Makes People Nervous](https://www.youtube.com/watch?v=wq8TrxPYN7A) |
-| Posted | not yet | 2026-01-30 | 2018-12-26 (older) | 2023-08-30 (older) | 2026-08-13 | 2026-08-20 |
-| Length | 0:34 | about 30 min (last chapter at 28:13) | 8:37 | not shown | not shown (channel average about 12 min) | not shown |
-| Views | - | 1.7M (OutlierKit, read 2026-10-23, estimate) | not found | not found | about 1.0M (OutlierKit, estimate) | 702K (OutlierKit, estimate) |
-| Chapters | none | 12 | none | none | not checked | not checked |
-| Description | none yet | book link, listening link, guides, support link | not checked | not checked | not checked | not checked |
-| Hashtags | none yet | 8 (#booksummary, #atomichabits, #jamesclear ...) | none (17 plain tags) | 4 (incl. #india) | not checked | not checked |
-| Title pattern | none yet | book title + time promise + format | BOOK TITLE by author + angle | book + author + "In-Depth Summary" | "Psychology of [trait]: [bold promise]" | same |
-| Format | narrator, animated character, charts, cards | animated book summary | animated core message | summary | animated psychology explainer | same |
+| Ours: POC 4 clip | - | not yet | 0:34 | - | - | - |
+| [Atomic Habits in 30 Minutes \| Animated Book Summary](https://www.youtube.com/watch?v=PmvhH6R-H44) | Antidote (318K) | 2026-01-30 | 30 min | 2,168,438 | 8,134 | 4.8x |
+| [Atomic Habits in 13 Min](https://www.youtube.com/results?search_query=Atomic+Habits+in+13+Min+LITTLE+BIT+BETTER) | LITTLE BIT BETTER (1.4M) | 2025-12-25 | 13 min | 256,266 | 847 | 0.8x |
+| [Atomic Habits in 5 minutes](https://www.youtube.com/results?search_query=Atomic+Habits+in+5+minutes+Coach+Safaa) | Coach Safaa (5.1K) | 2026-01-09 | 6 min | 89,102 | 310 | 77.1x |
+| [Atomic Habits Summary: Every Chapter Explained in 26 Minutes](https://www.youtube.com/results?search_query=Atomic+Habits+Summary+Every+Chapter+Explained+in+26+Minutes) | Epilogue Books (1.5K) | 2026-10-02 | 26 min | 3,692 | 171 | 95.9x |
 
-## What they all do that we don't (3 or more videos)
-- The title starts with the topic itself: the book title or "Psychology of ..." (5 of 5). We have no title yet.
-- They are long: 8.5 to about 30 minutes where the length is known (2 of 2 with a length), channel averages of about 12 to 49 minutes. Ours is a 34-second clip. (Only 2 confirmed lengths, so this is close to a pattern, not proven.)
+## Same topic, other formats (shows demand, not our format)
 
-## Where we are different in a good way
-- Exact numbers drawn as an animated chart (37.8x vs 0.03x) and a named reader character (Zaid) the viewer can follow. We could not check whether the others do this.
+| Video | Channel (subscribers) | Posted | Length | Views | Outlier |
+|---|---|---|---|---|---|
+| The Man Who Wrote Atomic Habits (interview) | The Diary Of A CEO (20.8M) | 2025-12-11 | 131 min | 4,333,062 | 17.7x |
+| The Science of Making & Breaking Habits | Mel Robbins (6.35M) | 2026-01-08 | 86 min | 2,959,998 | 79.3x |
+| Best Ways to Build Better Habits (with James Clear) | Andrew Huberman (7.97M) | 2026-01-05 | 155 min | 714,981 | 5.5x |
+
+Dropped: 1 off-topic video (a monster battle with "atomic" in the title) and 1 full audiobook upload of the book (a copyright risk, not a model to follow).
+
+## What they do that we don't (3 or more videos)
+- **"Atomic Habits in X Minutes"**: the book title first, then a time promise (4 of 4 summaries). We have no title yet.
+- **A full video, 5 to 30 minutes** (4 of 4). Ours is a 34-second clip.
+
+## Where the door is open
+- Small channels break out on this book: Coach Safaa (5.1K subscribers, 77x its usual views) and Epilogue Books (1.5K, 96x, posted 3 weeks ago). A new channel can win here.
+- The big interviews show huge demand for the topic in 2026.
 
 ## What we could not compare
-- Pacing, hooks, voice and how much the characters move: watching other people's videos frame by frame needs downloading them, which YouTube's terms do not allow. Watch their first 30 seconds yourself, or share screenshots, and I will add it.
-- View counts for Productivity Game and LearningTab: no page showed them.
-- LearningTab is aimed at India (#india), so it is a weak match for a US audience.
+- Pace, hooks, voice and motion: that needs downloading their videos, which YouTube's terms do not allow. Watch their first 30 seconds and tell me, or share screenshots.
