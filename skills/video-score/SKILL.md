@@ -52,6 +52,11 @@ Measures a video, looks at it, and checks every checklist item. The result is ho
    ```
    It returns the chance (in percent) that the video beats the channel's median views. Without 20 logged results it is **uncalibrated**: it starts at 50% and the readiness moves it at most 20 points. Always print the basis and confidence next to the number. After the video has been out for 7 days, add a row to `results.csv` (`video,readiness,beat_median`) so future estimates learn from real results.
 
+## After the score
+
+- Run `similar-videos` to see how the video stands against the top similar ones (not only against the checklist).
+- Run `video-packaging` for titles, description and changes, and `publish-ruler` for the pre-publish checklist.
+
 ## Report format
 
 ```
