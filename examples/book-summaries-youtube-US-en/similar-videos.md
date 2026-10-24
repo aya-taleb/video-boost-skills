@@ -9,9 +9,9 @@ Outlier = the video's views divided by its channel's median views of its last 10
 |---|---|---|---|---|---|---|
 | Ours: POC 4 clip | - | not yet | 0:34 | - | - | - |
 | [Atomic Habits in 30 Minutes \| Animated Book Summary](https://www.youtube.com/watch?v=PmvhH6R-H44) | Antidote (318K) | 2026-01-30 | 30 min | 2,168,438 | 8,134 | 4.8x |
-| [Atomic Habits in 13 Min](https://www.youtube.com/results?search_query=Atomic+Habits+in+13+Min+LITTLE+BIT+BETTER) | LITTLE BIT BETTER (1.4M) | 2025-12-25 | 13 min | 256,266 | 847 | 0.8x |
-| [Atomic Habits in 5 minutes](https://www.youtube.com/results?search_query=Atomic+Habits+in+5+minutes+Coach+Safaa) | Coach Safaa (5.1K) | 2026-01-09 | 6 min | 89,102 | 310 | 77.1x |
-| [Atomic Habits Summary: Every Chapter Explained in 26 Minutes](https://www.youtube.com/results?search_query=Atomic+Habits+Summary+Every+Chapter+Explained+in+26+Minutes) | Epilogue Books (1.5K) | 2026-10-02 | 26 min | 3,692 | 171 | 95.9x |
+| [Atomic Habits in 13 Min](https://www.youtube.com/watch?v=1h4D7munW2Y) | LITTLE BIT BETTER (1.4M) | 2025-12-25 | 13 min | 256,266 | 847 | 0.8x |
+| [Atomic Habits in 5 minutes](https://www.youtube.com/watch?v=C0Sq--g1M0o) | Coach Safaa (5.1K) | 2026-01-09 | 6 min | 89,102 | 310 | 77.1x |
+| [Atomic Habits Summary: Every Chapter Explained in 26 Minutes](https://www.youtube.com/watch?v=IJCvpqaTNOE) | Epilogue Books (1.5K) | 2026-10-02 | 26 min | 3,692 | 171 | 95.9x |
 
 ## Same topic, other formats (shows demand, not our format)
 
